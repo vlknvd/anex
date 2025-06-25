@@ -1,0 +1,38 @@
+:root {
+    // btn
+    --an-btn-lg-w: 168px;
+    --an-btn-lg-h: 40px;
+
+    --an-btn-md-w: 162px;
+    --an-btn-md-h: 39px;
+
+    --an-btn-sm-w: 41px;
+    --an-btn-sm-h: 17px;
+
+    --an-btn-b-r: 30px;
+
+    --an-btn-primary-bg-c: #EC1C24;
+    --an-btn-primary-hover-bg-c: #dd1a21;
+
+    --an-btn-secondary-bg-c: transparent;
+    --an-btn-secondary-hover-bg-c: #F8F8F8;
+    --an-btn-secondary-b: 1px solid #6a6a6a;
+
+    --an-btn-menu-bg: url('/src/img/icons/menu.svg') no-repeat center / 100%;
+    --an-btn-menu-bg-c: transparent;
+    --an-btn-menu-b: none;
+    --an-btn-menu-b-r: 0;
+
+    // text
+    --an-main-f-f: "Roboto";
+
+    --an-head-link-f-w: 400;
+    --an-head-link-f-s: 14px;
+    --an-head-link-t-t: uppercase;
+    --an-head-link-f-c: #000;
+    --an-head-link-hover-b-b: 1px solid #000;
+
+    --an-head-text-sm: 14px;
+    --an-head-text-c: #000;
+
+}

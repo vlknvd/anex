@@ -1,0 +1,53 @@
+.button {
+    // вопрос куда деть стили для текста кнопки?? добавить классом в файл titles или прописывать здесь
+    cursor: pointer;
+    border-radius: var(--an-btn-b-r, var(--an-btn-default-b-r));
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &--primary {
+        background-color: var(--an-btn-primary-bg-c, var(--an-btn-default-bg-c));
+        border: none;
+
+        &:hover {
+            background-color: var(--an-btn-primary-hover-bg-c, var(--an-btn-default-bg-c));
+        }
+
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    &--secondary {
+        background-color: var(--an-btn-secondary-bg-c, var(--an-btn-secondary-default-bg-c));
+        border: var(--an-btn-secondary-b, var(--an-btn-default-b));
+
+        &:hover {
+            background-color: var(--an-btn-secondary-hover-bg-c, var(--an-btn-secondary-default-bg-c));
+        }
+
+        font-size: 14px;
+        color: #000;
+    }
+
+    &--menu {
+        background: var(--an-btn-menu-bg, var(--an-btn-menu-default-bg));
+        border-radius: var(--an-btn-menu-b-r, var(--an-btn-menu-default-b-r));
+        background-color: var(--an-btn-menu-bg-c, var(--an-btn-menu-default-bg-c));
+        border: var(--an-btn-menu-b, var(--an-btn-menu-default-b));
+    }
+
+    &--lg {
+        width: var(--an-btn-lg-w, var(--an-btn-default-w));
+        height: var(--an-btn-lg-h, var(--an-btn-default-h));
+    }
+
+    &--md {
+        width: var(--an-btn-md-w, var(--an-btn-default-w));
+        height: var(--an-btn-md-h, var(--an-btn-default-h));
+    }
+
+    &--sm {
+        width: var(--an-btn-sm-w, var(--an-btn-default-w));
+        height: var(--an-btn-sm-h, var(--an-btn-default-h));
+    }
+}

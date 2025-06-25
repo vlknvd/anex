@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Chandra";
+    src: url('/src/fonts/Chandra.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Millanova";
+    src: url('/src/fonts/Millanova.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rasfire-Regular";
+    src: url('/src/fonts/Rasfire-Regular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}

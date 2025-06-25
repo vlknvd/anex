@@ -1,0 +1,39 @@
+.header {
+    padding: 14px 0;
+
+    &-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-logo__img {
+        width: 160px;
+        height: 58px;
+    }
+
+    &-socials {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &__list {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+
+            &-item {
+                width: 26px;
+                height: 26px;
+            }
+
+            &::after {
+                content: '';
+                margin-left: 14px;
+                border: 1px solid #e3e3e3;
+                height: 38px;
+            }
+        }
+    }
+}

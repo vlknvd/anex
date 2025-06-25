@@ -1,0 +1,10 @@
+.an-nav-link {
+    font-weight: var(--an-head-link-f-w, var(--an-head-link-default-f-w));
+    font-size: var(--an-head-link-f-s, var(--an-head-link-default-f-s));
+    text-transform: var(--an-head-link-t-t, var(--an-head-link-default-t-t));
+    color: var(--an-head-link-f-c, var(--an-head-link-default-f-c));
+
+    &:hover {
+        border-bottom: var(--an-head-link-hover-b-b, --an-head-link-hover-default)
+    }
+}
