@@ -1,9 +1,5 @@
 .button {
-    // вопрос куда деть стили для текста кнопки?? добавить классом в файл titles или прописывать здесь
-    cursor: pointer;
     border-radius: var(--an-btn-b-r, var(--an-btn-default-b-r));
-    font-weight: 500;
-    text-transform: uppercase;
 
     &--primary {
         background-color: var(--an-btn-primary-bg-c, var(--an-btn-default-bg-c));
@@ -12,9 +8,6 @@
         &:hover {
             background-color: var(--an-btn-primary-hover-bg-c, var(--an-btn-default-bg-c));
         }
-
-        font-size: 16px;
-        color: #FFFFFF;
     }
 
     &--secondary {
@@ -24,9 +17,6 @@
         &:hover {
             background-color: var(--an-btn-secondary-hover-bg-c, var(--an-btn-secondary-default-bg-c));
         }
-
-        font-size: 14px;
-        color: #000;
     }
 
     &--menu {

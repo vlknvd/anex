@@ -1,4 +1,22 @@
 :root {
+    // container
+    --an-container-p-mob: 0 30px;
+    --an-container-p-laptop: 0 48px;
+    --an-container-m-w: 1120px;
+    --an-container-m: 0 auto;
+
+    // colors
+    --an-cl-red: #ec1c24;
+    --an-cl-black: #1c1c1c;
+    --an-cl-white: #fff;
+    --an-cl-grey-text: #a1a1a1;
+    --an-cl-grey-line: #d4d4d4;
+    --an-cl-purple: #463998;
+    --an-cl-dark-grey-text: #585858;
+
+    --an-bg-c-white: #fff;
+    --an-bg-c-gray: #f8f8f8;
+
     // btn
     --an-btn-lg-w: 168px;
     --an-btn-lg-h: 40px;
@@ -6,33 +24,73 @@
     --an-btn-md-w: 162px;
     --an-btn-md-h: 39px;
 
-    --an-btn-sm-w: 41px;
-    --an-btn-sm-h: 17px;
-
     --an-btn-b-r: 30px;
 
-    --an-btn-primary-bg-c: #EC1C24;
+    --an-btn-primary-bg-c: --an-cl-red;
     --an-btn-primary-hover-bg-c: #dd1a21;
 
     --an-btn-secondary-bg-c: transparent;
-    --an-btn-secondary-hover-bg-c: #F8F8F8;
+    --an-btn-secondary-hover-bg-c: --an-bg-c-gray;
     --an-btn-secondary-b: 1px solid #6a6a6a;
 
-    --an-btn-menu-bg: url('/src/img/icons/menu.svg') no-repeat center / 100%;
-    --an-btn-menu-bg-c: transparent;
-    --an-btn-menu-b: none;
-    --an-btn-menu-b-r: 0;
+    // burger-menu
+    --an-burger-menu-w: 41px;
+    --an-burger-menu-h: 15px;
+    --an-burger-menu-bg-c: transparent;
+    --an-burger-menu-b: none;
+    --an-burger-menu-span-h: 1px;
 
     // text
     --an-main-f-f: "Roboto";
+    --an-text-upper: uppercase;
 
-    --an-head-link-f-w: 400;
-    --an-head-link-f-s: 14px;
-    --an-head-link-t-t: uppercase;
-    --an-head-link-f-c: #000;
-    --an-head-link-hover-b-b: 1px solid #000;
+    --an-h1-f-w: 800;
+    --an-h1-f-s: 128px;
+    --an-h1-mob-f-s: 40px;
+    --an-h1-l-h: 105%;
 
-    --an-head-text-sm: 14px;
-    --an-head-text-c: #000;
+    --an-h2-f-w: 400;
+    --an-h2-f-s: 28px;
+    --an-h2-mob-f-s: 16px;
 
+    --an-h3-f-w: 500;
+    --an-h3-f-s: 44px;
+    --an-h3-mob-f-s: 28px;
+
+    --an-h4-f-w: 300;
+    --an-h4-f-s: 24px;
+    --an-h4-mob-f-s: 16px;
+
+    --an-h5-f-f: "Millanova";
+    --an-h5-f-w: 300;
+    --an-h5-f-s: 25px;
+    --an-h5-mob-f-s: 16px;
+
+    --an-text-lg-f-w: 500;
+    --an-text-lg-f-s: 28px;
+    --an-text-lg-mob-f-s: 20px;
+
+    --an-text-md-f-w: 300;
+    --an-text-md-f-s: 16px;
+
+    --an-text-sm-f-w: 500;
+    --an-text-sm-f-s: 14px;
+
+    --an-text-xs-f-w: 300;
+    --an-text-xs-f-s: 12px;
+
+    // header
+    --an-header-p: 14px 0;
+    --an-header-logo-mob-w: 121px;
+    --an-header-logo-mob-h: 44px;
+    --an-header-logo-w: 159px;
+    --an-header-logo-h: 58px;
+    --an-header-socials-g: 30px;
+    --an-header-socials-m-r: 24px;
+    --an-header-links-g: 11px;
+    --an-header-links-img-w: 26px;
+    --an-header-links-img-h: 26px;
+    --an-header-line-m-l: 14px;
+    --an-header-line-b: 1px solid #e3e3e3;
+    --an-header-line-h: 38px;
 }

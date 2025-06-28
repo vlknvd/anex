@@ -1,0 +1,14 @@
+.burger-menu {
+    width: var(--an-burger-menu-w, var(--an-burger-menu-default-w));
+    height: var(--an-burger-menu-h, var(--an-burger-menu-default-h));
+    background: var(--an-burger-menu-bg-c, var(--an-burger-menu-default-bg-c));
+    border: var(--an-burger-menu-b, var(--an-burger-menu-default-b));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span {
+        height: var(--an-burger-menu-span-h, var(--an-burger-menu-default-span-h));
+        background-color: var(--an-cl-black, #000);
+    }
+}

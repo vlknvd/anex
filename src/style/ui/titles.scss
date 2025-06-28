@@ -1,10 +1,98 @@
-.an-nav-link {
-    font-weight: var(--an-head-link-f-w, var(--an-head-link-default-f-w));
-    font-size: var(--an-head-link-f-s, var(--an-head-link-default-f-s));
-    text-transform: var(--an-head-link-t-t, var(--an-head-link-default-t-t));
-    color: var(--an-head-link-f-c, var(--an-head-link-default-f-c));
+.an-h1 {
+    font-weight: var(--an-h1-f-w, --an-h1-f-w-default);
+    font-size: var(--an-h1-f-s, --an-h1-f-s-default);
+    line-height: var(--an-h1-l-h, --an-h1-l-h-default);
 
-    &:hover {
-        border-bottom: var(--an-head-link-hover-b-b, --an-head-link-hover-default)
+    &--mob {
+        font-size: var(--an-h1-mob-f-s, --an-h1-f-s-default);
     }
+}
+
+.an-h2 {
+    font-weight: var(--an-h2-f-w, var(--an-h2-f-w-default));
+    font-size: var(--an-h2-f-s, var(--an-h2-f-s-default));
+
+    &--mob {
+        font-size: var(--an-h2-mob-f-s, var(--an-h2-mob-f-s-default));
+    }
+}
+
+.an-h3 {
+    font-weight: var(--an-h3-f-w, var(--an-h3-f-w-default));
+    font-size: var(--an-h3-f-s, var(--an-h3-f-s-default));
+
+    &--mob {
+        font-size: var(--an-h3-mob-f-s, var(--an-h3-mob-f-s-default));
+    }
+}
+
+.an-h4 {
+    font-weight: var(--an-h4-f-w, var(--an-h4-f-w-default));
+    font-size: var(--an-h4-f-s, var(--an-h4-f-s-default));
+
+    &--mob {
+        font-size: var(--an-h4-mob-f-s, var(--an-h4-mob-f-s-default));
+    }
+}
+
+.an-h5 {
+    font-family: var(--an-h5-f-f, var(--an-h5-f-f-default));
+    font-weight: var(--an-h5-f-w, var(--an-h5-f-w-default));
+    font-size: var(--an-h5-f-s, var(--an-h5-f-s-default));
+
+    &--mob {
+        font-size: var(--an-h5-mob-f-s, var(--an-h5-mob-f-s-default));
+    }
+}
+
+.an-text-lg {
+    font-weight: var(--an-text-lg-f-w, var(--an-text-lg-f-w-default));
+    font-size: var(--an-text-lg-f-s, var(--an-text-lg-f-s-default));
+
+    &--mob {
+        font-size: var(--an-text-lg-mob-f-s, var(--an-text-lg-mob-f-s-default));
+    }
+}
+
+.an-text-md {
+    font-weight: var(--an-text-md-f-w, var(--an-text-md-f-w-default));
+    font-size: var(--an-text-md-f-s, var(--an-text-md-f-s-default));
+}
+
+.an-text-sm {
+    font-weight: var(--an-text-sm-f-w, var(--an-text-sm-f-w-default));
+    font-size: var(--an-text-sm-f-s, var(--an-text-sm-f-s-default));
+}
+
+.an-text-xs {
+    font-weight: var(--an-text-xs-f-w, var(--an-text-xs-f-w-default));
+    font-size: var(--an-text-xs-f-s, var(--an-text-xs-f-s-default));
+}
+
+.an-text-white {
+    color: var(--an-cl-white, var(--an-text-cl-default));
+}
+
+.an-text-black {
+    color: var(--an-cl-black, var(--an-text-cl-default));
+}
+
+.an-text-grey-line {
+    color: var(--an-cl-grey-line, var(--an-text-cl-default));
+}
+
+.an-text-grey {
+    color: var(--an-cl-grey-text, var(--an-text-cl-default));
+}
+
+.an-text-dark-grey {
+    color: var(--an-cl-dark-grey-text, var(--an-text-cl-default));
+}
+
+.an-text-red {
+    color: var(--an-cl-red, var(--an-text-cl-default));
+}
+
+.an-text-upper {
+    text-transform: var(--an-text-upper, var(--an-text-upper-default));
 }

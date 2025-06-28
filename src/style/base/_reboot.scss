@@ -1,3 +1,5 @@
+@use '../ui/_media.scss' as *;
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,10 @@ p {
 
 a {
     text-decoration: none;
+}
+
+button,
+a {
     cursor: pointer;
 }
 
@@ -42,9 +48,18 @@ img {
 
 html {
     font-family: var(--an-main-f-f, var(--an-default-f-f));
+    background-color: var(--an-bg-c-white, var(--an-bg-c-default));
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
+    padding: var(--an-container-p-mob, var(--an-container-p-mob-default));
+    margin: var(--an-container-m, var(--an-container-m-default));
+
+    @include for-laptop {
+        padding: var(--an-container-p-laptop, var(--an-container-p-laptop-default))
+    }
+
+    @include for-desktop {
+        max-width: var(--an-container-m-w, var(--an-container-m-w-default))
+    }
 }

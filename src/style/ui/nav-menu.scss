@@ -1,0 +1,16 @@
+@use './media' as *;
+
+.nav-menu {
+    &__list--header {
+        display: none;
+    }
+}
+
+@include for-laptop {
+    .nav-menu {
+        &__list--header {
+            display: flex;
+            gap: 42px;
+        }
+    }
+}

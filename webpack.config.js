@@ -53,7 +53,6 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        // test: /\.jsx?$/, было
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
